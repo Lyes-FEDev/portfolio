@@ -1,0 +1,16 @@
+Fond : #0A192F (Bleu nuit, élégant)
+Accent : #007BFF (Bleu vif, tech)
+Texte : #E0E0E0 (Gris clair, lisible)
+Détails : #64B5F6 (Bleu plus clair pour dynamiser)
+
+🔹 Utiliser Accent (#007BFF) pour le titre "Mes Projets" et les boutons "Voir plus".
+🔹 Utiliser Détails (#64B5F6) pour une bordure animée autour des cartes de projets.
+
+
+
+
+
+🌞 White Mode Colors
+Background: #F8F9FA (Very light gray, easier on the eyes than pure white #FFFFFF)
+Text: #1A1A1A (Dark gray, better readability than pure black)
+Accent (hover/details): #007BFF (Keep the same as dark mode for consistency)

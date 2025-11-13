@@ -6,6 +6,10 @@
    /* outline: 1px solid red;*/
 }
 
+body, header, nav, main {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 :root{
     --primary-color: #F8F9FA;
     --secondary-color: #0A192F;
@@ -75,22 +79,25 @@ nav a:hover{
 }
 
 main{
-    width: 90vw;
+    width: 90%;
     margin: 5em;
 }
 
 /*Title*/
 .title{
     text-align: center;
-    margin-top: 3rem;
-    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
 }
 /*END Title*/
 
 /*Text "h3"*/
 .text{
     line-height: 1.6;
-    word-spacing: 0.1rem;
+    word-spacing: 0.2rem;
     letter-spacing: 0.03rem;
     margin: 1.25rem 3rem; ;
     text-align: center;
@@ -153,6 +160,21 @@ main{
 }
 /*end nav-toggler*/
 
+/*
+=====By Lyes 13/11/2025 
+Add the first project in this page "SARA"
+*/
+   .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 2rem;
+   
+   }
+
 /*START RESPONSIVE*/
 @media (max-width: 1024px){
     nav{
@@ -197,14 +219,5 @@ main{
         display: none;
     }
 
-   .container{
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   }
-   .Mypicture{
-    margin-left: 15rem;
-   }
 }
 /*END RESPONSIVE*/ 
