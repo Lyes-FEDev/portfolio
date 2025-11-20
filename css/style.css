@@ -105,15 +105,26 @@ nav a:hover{
 
 .myName{
    max-width: 45vw;
+   margin-left: 1.875rem;
 }
 
 .Mypicture{
-    height: 50vh;
-    border-radius: 25px;
+    max-width: 50vw;
+    max-height: 50vh;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1.875rem;
+    padding-right: 3rem;
 
-    /*max-width: 17vw;*/
-    /*padding-right: 3rem;*/
 } 
+.picContainer{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1.875rem;
+    padding-right: 3rem;    
+}
 
 .so-net{
         margin: 2rem;
@@ -317,10 +328,11 @@ START RESPONSIVE
     }
 
     .Mypicture{
-        max-width: 100%;
         object-fit: cover;
-        
+        object-position: 50%;
         overflow-y: hidden;
+        border-radius: 50%;
+       /* border: 3px solid  #007BFF;*/
     }
 
     .so-net{

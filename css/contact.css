@@ -9,10 +9,17 @@
 body, header, nav, main {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+body{
+    width: 100%;
+}
 :root{
     --primary-color: #F8F9FA;
     --secondary-color: #0A192F;
+    --third-color: #e0e0e0;
+    --BG-color2: #112240;
+    --BTN-color: #007BFF;
+    --HOVER-color:   #0056b3;
+    --title-Color: #F8F9FA;
 }
 
 .dark-theme {
@@ -61,7 +68,7 @@ nav{
 }
 
 .contactPage{
-    background-color: #007BFF;
+    background-color: var(--BTN-color);
     border: 1px solid transparent;
     border-radius: 4em;
     padding: 0.15rem 0.5rem;
@@ -75,7 +82,7 @@ nav a{
     font-size: 1em;
 }
 nav a:hover{
-   background-color: #007BFF;
+   background-color: var(--BTN-color);
    border: 1px solid transparent;
    border-radius: 4em;
    padding: 0.15rem 0.5rem;
@@ -90,10 +97,8 @@ nav a:hover{
 
 main{
     width: 90vw;
-    margin: 5em;
+    margin: 5rem;
 }
-
-
 
 /*start nav-toggler*/
 .nav-toggler{
@@ -144,7 +149,169 @@ main{
 
 /*end nav-toggler*/
 
-/*START RESPONSIVE*/
+
+/*Title*/
+.title{
+    text-align: center;
+    margin-top: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+/*END Title*/
+
+/*==============
+    container
+==============*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+    position: relative;
+    margin: 1rem 0.5rem;
+}
+
+/*=============
+     CHILD 1
+===============*/
+.child1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 90%;
+    text-align: left;
+    padding: 2rem;
+}
+
+/*Text "p"*/
+.text{
+    line-height: 2rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+}
+/*ENDText "p"*/
+.so-net{
+    display: flex;
+    flex-direction: column;  
+    gap: 1rem;  
+    padding-top: 2rem;
+    position: relative;
+    margin-left: 0;
+}
+.contact a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.contact{
+    margin-left: 0;
+}
+b, .fas, .fab{
+    color: var(--BTN-color);
+}
+.fas, .fab{
+    margin: 0.5rem;
+    background-color: var(--BG-color2);
+    font-size: 1.5rem;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.contact-details, p{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+}
+p{
+    color: var(--primary-color);
+}
+/*===============
+    CHILD 2
+=================*/
+.child2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+h2{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+.titleContact {
+     color: var(--title-Color);
+     vertical-align: middle;
+}
+
+.me, .together{
+    color: var(--BTN-color);
+}
+
+/*=========================
+      START FORM
+=========================*/
+form{
+    color: var(--primary-color);
+    background-color: var(--BG-color2);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    gap: 0.4rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+    width: 70%;
+    height: auto;
+}
+
+.fullName, .email, .phone, .contactReason, .message, .button{
+    width: 90%;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    background-color: var(--secondary-color);
+    border: 1px solid transparent;
+}
+
+.contactReason{
+    color: grey;
+}
+
+
+.button{
+    color: var(--primary-color);
+    background-color: var(--BTN-color);
+    padding: 0.5rem;
+    margin-top: -2rem;
+    margin-bottom: 0.5rem;
+}
+.button:hover{
+    background-color: var(--HOVER-color);
+    cursor: pointer;
+}
+/*=========================
+       FORM END
+===========================*/
+
+
+/*=======================
+     START RESPONSIVE
+=========================*/
+@media screen and (min-width: 1024px){
+      .line{
+        display: none;
+    }
+}
+
 @media (max-width: 1024px){
     nav{
         position: fixed;
@@ -181,69 +348,36 @@ main{
         left: 2.5rem;
         height: 30px;
       }
+    .container{
+        display: flex;
+        flex-direction: column;
+      }
+
+ 
 }
 
-@media (min-width: 1025px){
-    .nav-toggler{
-        display: none;
-    }
-
-   .container{
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   }
-   .Mypicture{
-    margin-left: 15rem;
-   }
-}
-/*END RESPONSIVE*/ 
-
-/*Title*/
-.title{
-    text-align: center;
-    margin-top: 3rem;
-    letter-spacing: 0.1rem;
-}
-/*END Title*/
-
-/*Text "p"*/
-.text{
-    line-height: 1.6;
-    word-spacing: 0.1rem;
-    letter-spacing: 0.1rem;
-    margin: 1.25rem 3rem; ;
-    text-align: center;
-}
-/*ENDText "p"*/
-
-/*Form*/
-form{
-    text-align: center;
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    margin: 1rem 0.5rem;
-    padding: 1.05rem 1rem;
+@media screen and(max-width: 1056px) {
+      .container{
+        display: flex;
+        flex-direction: column;
+      }
+      .fullName, .email, .contactReason, textarea{
+       width: 80%;
+       margin: 0.3rem 0;
+      }
+      .phone{
+        width: 65%;
+      }
+      form{
+        width: 100%;
+        margin: 0;
+      }
+      textarea{
+        margin: 1rem;
+        width: 4vw;
+      }
 }
 
-.phone{
-    padding: 0.2rem;
-}
-input,
-select{
-    padding: 0.2rem;
-}
-
-.button{
-    color: var(--primary-color);
-    background-color: #007BFF;
-    padding: 0.5rem 1.5rem;
-    border: 1px solid transparent;
-    border-radius: 0.5rem;
-}
-.button:hover{
-    background-color: #0056b3;
-    cursor: pointer;
-}
-/*Form*/
+/*=======================
+    END RESPONSIVE
+=========================*/

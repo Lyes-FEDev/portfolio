@@ -80,17 +80,16 @@ nav a:hover{
 
 main{
     width: 90%;
-    margin: 5em;
+    margin: 2rem 5rem;
 }
 
 /*Title*/
 .title{
     text-align: center;
     margin-top: 1rem;
-    letter-spacing: 0.4rem;
     text-transform: uppercase;
-    color: #fff;
-    -webkit-text-stroke: 2px  #007BFF;
+    /*color: #fff;
+    -webkit-text-stroke: 2px  #007BFF;*/
 }
 /*END Title*/
 

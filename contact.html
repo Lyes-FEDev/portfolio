@@ -36,68 +36,66 @@
     </header>
 
     <h1 class="title">Contact</h1>
-    <p class="text">“I'm open to new opportunities and collaborations. Feel free to send me a message — I'll be glad to reply as soon as possible.”</p>
+    <section class="container">
+        <div class="child1">
+            <h2>Let's work <span class="together">together!</span></h2>
+          <p class="text">“I'm open to new opportunities and collaborations. Feel free to send me a message — I'll be glad to reply as soon as possible.”</p>
 
-    <form action="https://formsubmit.co/lyesmedjahed17@gmail.com" method="post">
-        <label for="firstname">First Name:</label>
-        <input type="text" placeholder="Enter your first name">
+         <div class="so-net">
+            <div class="contact">
+              <a href="+385919875623" target="_blank">
+               <i class="fas fa-phone"></i>
+               <div class="contact-details">
+                 <p><b>PHONE</b></p>
+                 <p>(+385) 919 875 623</p>
+               </div>
+              </a>
+            </div>
 
-        <label for="lastname">Last Name:</label>
-        <input type="text" placeholder="Enter your last name"><br><br>
- 
+            <div class="contact">
+              <a href="https://www.linkedin.com/in/lyes-medjahed/" target="_blank">
+               <i class="fab fa-linkedin"></i>
+               <div class="contact-details">
+                <p><b>LINKEDIN</b></p>
+                <p>link here</p>
+               </div>
+              </a>
+            </div>
 
-        <select id="country" name="country">
-            <!-- Europe -->
-            <option value="+33" title="France">🇫🇷 +33</option>
-            <option value="+49" title="Germany">🇩🇪 +49</option>
-            <option value="+44" title="United Kingdom">🇬🇧 +44</option>
-            <option value="+385" title="Croatia">🇭🇷 +385</option>
-            <option value="+32" title="Belgium">🇧🇪 +32</option>
-            <option value="+31" title="Netherlands">🇳🇱 +31</option>
-            <option value="+41" title="Switzerland">🇨🇭 +41</option>
-            <option value="+352" title="Luxembourg">🇱🇺 +352</option>
-            <option value="+353" title="Ireland">🇮🇪 +353</option>
-            <option value="+46" title="Sweden">🇸🇪 +46</option>
-            <option value="+47" title="Norway">🇳🇴 +47</option>
-            <option value="+358" title="Finland">🇫🇮 +358</option>
-            <option value="+45" title="Denmark">🇩🇰 +45</option>
-            <option value="+34" title="Spain">🇪🇸 +34</option>
-            <option value="+39" title="Italy">🇮🇹 +39</option>
-            <option value="+351" title="Portugal">🇵🇹 +351</option>
-            <option value="+43" title="Austria">🇦🇹 +43</option>
-            <!-- Amérique du Nord -->
-            <option value="+1" title="USA">🇺🇸 +1</option>
-            <option value="+1" title="Canada">🇨🇦 +1</option>
-            <!-- Océanie -->
-            <option value="+61" title="Australia">🇦🇺 +61</option>
-            <option value="+64" title="New Zealand">🇳🇿 +64</option>
-            <!-- Asie / Moyen-Orient -->
-            <option value="+65" title="Singapore">🇸🇬 +65</option>
-            <option value="+971" title="UAE">🇦🇪 +971</option>
-            <option value="+972" title="Israel">🇮🇱 +972</option>
-        </select><input type="tel" id="phone" name="phone" placeholder="(0)919875623" required   oninvalid="this.setCustomValidity('Please enter your phone number')"
-        oninput="this.setCustomValidity('')">  
+            <div class="contact">
+               <a href="https://wa.me/+33745596227" target="_blank"> <i class="fab fa-whatsapp icon"></i>
+               <div class="contact-details">
+                <p><B>WHATTSAPP</B></p>
+                <p>click here</p>
+               </div>
+            </div>
+          </a>
+         </div>
+
+        </div>
+       
+        <div class="child2">    
+          <form action="https://formsubmit.co/lyesmedjahed17@gmail.com" method="post">
+            <h2 class="titleContact">Contact <span class="me">Me!</span></h2>
+
+            <input type="text" placeholder="  *Full Name" class="fullName" required>
+            <input type="email" placeholder="  *Email" class="email" required oninvalid="this.setCustomValidity('Please enter your email address')" oninput="this.setCustomValidity('')">
+            <input type="tel" class="phone" id="phone" name="phone" placeholder="   *(+385)919875623" required   oninvalid="this.setCustomValidity('Please enter your phone number')" oninput="this.setCustomValidity('')">  
           
+            <select name="contactReason" placeholder="*Contact Reason" class="contactReason" id="dropdown" required>
+              <option value="hiring">  *Select Contact Reason</option>
+              <option value="hiring">Recruitment / Hiring</option>
+              <option value="freelance">Freelance / Project Inquiry</option>
+              <option value="Collaboration">Collaboration / Partnership</option>
+              <option value="training">Training / Mentorship</option>
+              <option value="other">General Inquiry / Other</option>
+            </select>
 
-        <label for="email">*Email:</label>
-        <input type="email" placeholder="exemple@email.com" required 
-        oninvalid="this.setCustomValidity('Please enter your email address')"
-        oninput="this.setCustomValidity('')"><br><br>
+            <textarea name="textarea" class="message" id="textarea" rows="5" cols="61"  placeholder=" *Message" required></textarea><br><br>   
 
-       <label for="dropdown">*Contact reason:</label>
-        <select name="contactReason" id="dropdown" required>
-            <option value="hiring">Recruitment / Hiring</option>
-            <option value="freelance">Freelance / Project Inquiry</option>
-            <option value="Collaboration">Collaboration / Partnership</option>
-            <option value="training">Training / Mentorship</option>
-            <option value="other">General Inquiry / Other</option>
-        </select><br><br>
-
-        <label for="message">*Content message:</label><br>
-        <textarea name="textarea" id="textarea" rows="25" cols="70"  placeholder="Tape your message here..." required></textarea><br><br>
-        <button class="button" id="button">Send</button>
-
-    </form>
-
+            <button class="button" id="button">Send Message</button>
+         </form>
+      </div>
+    </section>
 </body>
 </html>
