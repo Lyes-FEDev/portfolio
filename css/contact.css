@@ -167,7 +167,7 @@ main{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 2rem;
+    padding: 4rem;
     position: relative;
     margin: 1rem 0.5rem;
 }
@@ -184,7 +184,7 @@ main{
     flex-wrap: wrap;
     width: 90%;
     text-align: left;
-    padding: 2rem;
+    padding-left: 4rem;
 }
 
 /*Text "p"*/
@@ -327,7 +327,7 @@ form{
         width: 30vw;
         margin-left: 15.62rem;
         transform: translateX(100%);
-        backdrop-filter: glur(10px);
+        backdrop-filter: blur(10px);
         background-color: var(--secondary-color);
         transition: transform 0.3s;
     }
@@ -351,6 +351,9 @@ form{
     .container{
         display: flex;
         flex-direction: column;
+      }
+          .child1{
+        margin-bottom: 4rem;
       }
 
  
@@ -376,6 +379,7 @@ form{
         margin: 1rem;
         width: 4vw;
       }
+
 }
 
 /*=======================
