@@ -184,7 +184,7 @@ main{
     flex-wrap: wrap;
     width: 90%;
     text-align: left;
-    padding-left: 4rem;
+    padding-left: 1rem;
 }
 
 /*Text "p"*/
@@ -270,7 +270,7 @@ form{
     gap: 0.4rem;
     border-radius: 0.5rem;
     transition: background-color 0.3s, color 0.3s;
-    width: 70%;
+    width: 90%;
     height: auto;
 }
 
@@ -353,7 +353,7 @@ form{
         flex-direction: column;
       }
           .child1{
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
       }
 
  
