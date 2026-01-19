@@ -351,9 +351,11 @@ form{
     .container{
         display: flex;
         flex-direction: column;
+        width: 100%;
       }
           .child1{
         margin-bottom: 2rem;
+        width: 100%;
       }
 
  
