@@ -348,7 +348,7 @@ form{
         left: 2.5rem;
         height: 30px;
       }
-    .container{
+       .container{
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -365,10 +365,7 @@ form{
 }
 
 @media screen and(max-width: 1056px) {
-      .container{
-        display: flex;
-        flex-direction: column;
-      }
+   
       .fullName, .email, .contactReason, textarea{
        width: 80%;
        margin: 0.3rem 0;
