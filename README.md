@@ -24,6 +24,8 @@ I enjoy turning ideas into interactive experiences using modern JavaScript frame
 ## ✨ Features
 - Responsive and mobile-first design
 - Smooth animations with GSAP
+- Dark / Light theme support
+- Dynamic content loading with modern JavaScript (async/await)
 - Clean and modern UI
 - Optimized performance
 - Accessible and semantic HTML
