@@ -2,7 +2,7 @@
 My personal portfolio showcasing my work as a Frontend Developer, focused on modern web interfaces, clean design, and smooth animations.
 
 ## 🚀 Live Website
-🔗 https://your-portfolio-link.com
+🔗 [https://your-portfolio-link.com](https://lyesmedjahed.github.io/portfolio/)
 
 ## 📸 Preview
 ![Portfolio Preview](./preview.png)
@@ -26,18 +26,20 @@ I enjoy turning ideas into interactive experiences using modern JavaScript frame
 - Optimized performance
 - Accessible and semantic HTML
 
-## 📂 Installation & Setup
-If you want to run this project locally:
-
-```bash
-git clone https://github.com/USERNAME/PORTFOLIO_REPO.git
-cd PORTFOLIO_REPO
-npm install
-npm run dev
-
 ## 💼 Open to Opportunities
 I am currently open to junior frontend developer opportunities.
 
 ## 📫 Contact
 - 📩Email: lyesmedjahed17@gmail.com  
 - 🔗 LinkedIn: [Lyes Medjahed](https://linkedin.com/in/lyes-medjahed/)
+
+
+## 📂 Installation & Setup
+If you want to run this project locally:
+
+```bash
+git clone https://github.com/lyesmedjahed/portfolio/
+cd PORTFOLIO_REPO
+npm install
+npm run dev
+
