@@ -5,7 +5,7 @@ My personal portfolio showcasing my work as a Frontend Developer, focused on mod
 🔗 [https://lyesmedjahed.com](https://lyesmedjahed.github.io/portfolio/)
 
 ## 📸 Preview
-![Portfolio Preview](./preview.png)
+![Portfolio Preview](./images/portfoliodemo1.png)
 
 ## 👋 About Me
 Hi, I’m Lyes, a Frontend Developer passionate about building modern, responsive, and user-friendly web applications.
