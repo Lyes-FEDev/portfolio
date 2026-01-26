@@ -6,6 +6,7 @@ My personal portfolio showcasing my work as a Frontend Developer, focused on mod
 
 ## 📸 Preview
 ![Portfolio Preview](./images/portfoliodemo1.png)
+![Portfolio Preview](./images/portfoliodemo2.png)
 
 ## 👋 About Me
 Hi, I’m Lyes, a Frontend Developer passionate about building modern, responsive, and user-friendly web applications.
